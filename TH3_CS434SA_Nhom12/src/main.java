@@ -17,7 +17,8 @@ public class main {
         // TODO code application logic here
         desktop dk = new desktop();
         dk.setTitle("Calculator");
+        
         dk.setVisible(true);
-	// Phan Thanh Vang was here.
+        //HaVanQuocHung
     }
 }

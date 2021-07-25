@@ -8,6 +8,7 @@
  *
  * @author ADMIN
  */
+
 public class desktop extends javax.swing.JFrame {
 
     /**
@@ -41,7 +42,7 @@ public class desktop extends javax.swing.JFrame {
 
         btnT.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnT.setForeground(new java.awt.Color(51, 153, 255));
-        btnT.setText("Tính toán");
+        btnT.setText("TĂ­nh toĂ¡n");
         btnT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTActionPerformed(evt);
@@ -50,7 +51,7 @@ public class desktop extends javax.swing.JFrame {
 
         btnG.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnG.setForeground(new java.awt.Color(51, 153, 255));
-        btnG.setText("Giải phương trình");
+        btnG.setText("Giáº£i phÆ°Æ¡ng trĂ¬nh");
         btnG.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGActionPerformed(evt);
@@ -59,7 +60,7 @@ public class desktop extends javax.swing.JFrame {
 
         btnPS.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnPS.setForeground(new java.awt.Color(51, 153, 255));
-        btnPS.setText("Tính chu vi, diện tích");
+        btnPS.setText("TĂ­nh chu vi, diá»‡n tĂ­ch");
         btnPS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPSActionPerformed(evt);
@@ -68,7 +69,7 @@ public class desktop extends javax.swing.JFrame {
 
         btnD.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnD.setForeground(new java.awt.Color(51, 153, 255));
-        btnD.setText("Đổi ngoại tệ");
+        btnD.setText("Ä�á»•i ngoáº¡i tá»‡");
         btnD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDActionPerformed(evt);
@@ -76,7 +77,7 @@ public class desktop extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Nhóm 12");
+        jLabel2.setText("NhĂ³m 12");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -124,28 +125,28 @@ public class desktop extends javax.swing.JFrame {
     private void btnGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGActionPerformed
         // TODO add your handling code here:
         GiaiPT gPT = new GiaiPT();
-        gPT.setTitle("Giải phương trình");
+        gPT.setTitle("Giáº£i phÆ°Æ¡ng trĂ¬nh");
         gPT.show();
     }//GEN-LAST:event_btnGActionPerformed
 
     private void btnTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTActionPerformed
         // TODO add your handling code here:
         TinhToan tT = new TinhToan();
-        tT.setTitle("Tính Toán");
+        tT.setTitle("TĂ­nh ToĂ¡n");
         tT.show();
     }//GEN-LAST:event_btnTActionPerformed
 
     private void btnPSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPSActionPerformed
         // TODO add your handling code here:
         ChuViDienTich cVDT = new ChuViDienTich();
-        cVDT.setTitle("Tính Chu Vi Diện Tích");
+        cVDT.setTitle("TĂ­nh Chu Vi Diá»‡n TĂ­ch");
         cVDT.show();
     }//GEN-LAST:event_btnPSActionPerformed
 
     private void btnDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDActionPerformed
         // TODO add your handling code here:
         NgoaiTe nT = new NgoaiTe();
-        nT.setTitle("Đổi Ngoại Tệ");
+        nT.setTitle("Ä�á»•i Ngoáº¡i Tá»‡");
         nT.show();
     }//GEN-LAST:event_btnDActionPerformed
 
