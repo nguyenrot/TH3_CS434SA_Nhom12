@@ -19,5 +19,4 @@ public class main {
         dk.setTitle("Calculator");
         dk.setVisible(true);
     }
-    
 }
